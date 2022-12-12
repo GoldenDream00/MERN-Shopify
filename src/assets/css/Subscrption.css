@@ -1,0 +1,44 @@
+.container {
+  display: block;
+  position: relative;
+  padding-left: 35px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  font-size: 22px;
+  user-select: none;
+  font-weight: 400;
+  font-size: 18px;
+  color: #667085;
+}
+
+/* Hide the browser's default checkbox */
+
+/* Create a custom checkbox */
+.checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 22px;
+  width: 22px;
+  background-color: #f4ebff;
+  border-radius: 14px;
+}
+
+/* Create the checkmark/indicator (hidden when not checked) */
+.checkmark:after {
+  content: "";
+  position: absolute;
+}
+
+/* Style the checkmark/indicator */
+.container .checkmark:after {
+  top: 3px;
+  left: 7px;
+  width: 5px;
+  height: 10px;
+  border: solid #9e77ed;
+  border-width: 0 3px 3px 0;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}

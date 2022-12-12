@@ -1,0 +1,186 @@
+* {
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+}
+table {
+  margin: 0;
+  padding: 0;
+}
+.MuiList-root {
+  display: flex;
+  flex-direction: column;
+}
+
+.card-field {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+  height: 40px;
+  background: white;
+  font-size: 17px;
+  color: #3a3a3a;
+  font-family: helvetica, tahoma, calibri, sans-serif;
+}
+
+.btn {
+  display: inline-block;
+  font-weight: 400;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  border: 1px solid transparent;
+  padding: 0.375rem 0.75rem;
+  font-size: 1rem;
+  line-height: 1.5;
+  border-radius: 0.25rem;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
+    border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  cursor: pointer;
+}
+.instagramcss {
+  border: none;
+  background: linear-gradient(90deg, #b224ef 0%, #7579ff 100%);
+  border-radius: 4px;
+  padding: 10px 30px;
+  color: white;
+  font-weight: 800;
+  font-size: 20px;
+  width: 170px;
+  margin: auto;
+}
+.btn-primary {
+  color: #fff;
+  background-color: #007bff;
+  border-color: #007bff;
+}
+
+.mark {
+  display: flex;
+  align-items: center;
+}
+.spinner {
+  display: inline-block;
+  height: 40px;
+  width: 40px;
+  box-sizing: border-box;
+  border: 3px solid rgba(0, 0, 0, 0.2);
+  border-top-color: rgba(33, 128, 192, 0.8);
+  border-radius: 100%;
+  animation: rotation 0.7s infinite linear;
+}
+
+.spinner.tiny {
+  height: 20px;
+  width: 20px;
+  border-top-color: #007bff;
+  position: relative;
+  top: 3px;
+}
+
+@keyframes rotation {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(359deg);
+  }
+}
+
+.StripeElement {
+  display: block;
+  margin: 10px 0 20px 0;
+  max-width: 500px;
+  padding: 10px 14px;
+  font-size: 1em;
+  font-family: "Source Code Pro", monospace;
+  box-shadow: rgba(50, 50, 93, 0.14902) 0px 1px 3px,
+    rgba(0, 0, 0, 0.0196078) 0px 1px 0px;
+  border: 0;
+  outline: 0;
+  border-radius: 4px;
+  background: white;
+}
+.MuiModal-root {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(160deg, #b224ef 0%, #7579ff 100%);
+}
+.MuiPagination-ul {
+  padding: 20px;
+  gap: 20px;
+}
+.MuiPagination-ul button {
+  border-radius: 100%;
+}
+.flagselect button {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border: 1px solid rgba(207, 219, 213, 0.6);
+  border-radius: 23px;
+}
+
+.flagselect span {
+  font-weight: 700;
+  color: #777774;
+  font-size: 14px;
+  padding: 2.5px 20px;
+}
+.ReactTags__tagInput {
+  outline: none;
+  border-radius: 4px;
+  border: 1px solid #d0d5dd;
+  box-shadow: 0px 1px 2px rgb(16 24 40 / 5%);
+  border-radius: 4px;
+}
+.MuiTableCell-root {
+  text-align: center;
+  font-family: "Inter", sans-serif;
+}
+.Fileupload {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  height: 100px;
+  position: relative;
+  border: dashed 2px #8e56f9;
+  padding: 8px 16px 8px 8px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  color: #6941c6;
+  flex-grow: 0;
+}
+
+tr {
+  height: 83.33333333px !important;
+}
+
+th {
+  max-width: 125px;
+  min-width: 125px;
+  padding: 0 !important;
+  overflow-x: auto;
+  white-space: nowrap;
+  text-align: center !important;
+}
+
+td {
+  height: 40px !important;
+  padding: 5px !important;
+  text-align: center !important;
+}
+div.dropdown-heading-value > span:first-child {
+  display: flex;
+}
